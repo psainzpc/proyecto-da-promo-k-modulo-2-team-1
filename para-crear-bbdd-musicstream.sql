@@ -1,6 +1,6 @@
 CREATE SCHEMA music_stream;
 USE music_stream;
-DROP TABLE musicbrainz;
+
 
 CREATE TABLE spotify (
 track VARCHAR(150),
