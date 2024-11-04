@@ -55,7 +55,8 @@ MusicStream/
 
 ## Autoras
 * Carmen Arazola
-* Irene Alonzo
+* Irene Alonso
+* Laura Gutierrez
 * Marta Hernández
 * Patricia Sainz-Pardo
 
