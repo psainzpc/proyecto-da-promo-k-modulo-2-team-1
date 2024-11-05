@@ -33,6 +33,7 @@ MusicStream es un proyecto de extracción de datos de música utilizando las API
      * _requests_: librería para hacer peticiones HTTP
      * _pandas_: para la manipulación y el análisis de datos
      * _musicbrainzngs_: libreria de musicbrainz
+     * _glob_: librería para buscar archivos csv
 
 ## Credenciales de APIs:
 1. **[Spotify](https://developer.spotify.com/)**: Necesitas una cuenta de desarrollador en Spotify y una aplicación para obtener tu client_id y client_secret.
