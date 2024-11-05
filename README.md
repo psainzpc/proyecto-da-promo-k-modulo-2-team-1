@@ -22,7 +22,7 @@ MusicStream es un proyecto de extracción de datos de música utilizando las API
 - **Python**: lenguaje principal para la extracción, transformación y carga (ETL) de datos.
 - **APIs**: Spotify, MusicBrainz, Last.fm.
 - **SQL**: para la creación de la base de datos y consultas.
-- **Jupyter Notebooks** (opcional): para análisis y visualización de datos en desarrollo.
+- **Jupyter Notebooks**: para análisis y visualización de datos en desarrollo.
 
 ## Requisitos de Instalación
 
@@ -34,6 +34,7 @@ MusicStream es un proyecto de extracción de datos de música utilizando las API
      * _pandas_: para la manipulación y el análisis de datos
      * _musicbrainzngs_: libreria de musicbrainz
      * _glob_: librería para buscar archivos csv
+     * _MySQLconnector_: librería para conectar Python con SQL y cargar datos. 
 
 ## Credenciales de APIs:
 1. **[Spotify](https://developer.spotify.com/)**: Necesitas una cuenta de desarrollador en Spotify y una aplicación para obtener tu client_id y client_secret.
