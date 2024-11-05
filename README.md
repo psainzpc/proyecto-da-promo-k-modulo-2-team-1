@@ -42,18 +42,16 @@ MusicStream es un proyecto de extracción de datos de música utilizando las API
 3. **[Last.fm](https://www.last.fm/api)**: Necesitas una cuenta y una clave API (api_key).
 
 ## Estructura del Proyecto 
-(revisar!!)
 
 MusicStream/
-- data/                   # Carpeta de archivos de datos (opcional)
-- bbdd/                   # Carpeta de la base de datos
-- clase_proyecto/         # Jupyter Notebooks para análisis y exploración
-- CSVs/                   # CSVs con datos extraidos
-  * spotify_csv         # CSVs para extracción y transformación de datos de Spotify
-  * musicbrainz_csv     # CSVs  para extracción y transformación de datos de MusicBrainz
-  * lastfm_csv           # CSVs  para extracción y transformación de datos de Last.fm
-- main.py                 # Script principal para ejecutar el flujo completo
-- README.md               # Documentación del proyecto
+- **Documentación/**: Documentación del proyecto
+- **Extraccion_datos/**: Jupyter Notebooks para análisis y exploración
+- **BBDD/**: Carpeta de la base de datos
+- **CSVs/**: CSVs con datos extraidos
+  * _spotify_csv_: CSVs para extracción y transformación de datos de Spotify
+  * _musicbrainz_csv_: CSVs  para extracción y transformación de datos de MusicBrainz
+  * _lastfm_csv_: CSVs  para extracción y transformación de datos de Last.fm
+- **README.md**              
 
 ## Autoras
 * Carmen Arazola
