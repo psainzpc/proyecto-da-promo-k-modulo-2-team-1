@@ -5,9 +5,10 @@ CREATE TABLE musicbrainz(
 	artist VARCHAR(50) UNIQUE,
 	origin_country VARCHAR(50),
 	origin_area VARCHAR(50),
-	begin_act DATE,
-	end_act DATE,
+	begin_act VARCHAR(40),
+	end_act VARCHAR(40),
     PRIMARY KEY (artist));
+
     
 CREATE TABLE spotify(
 	song VARCHAR(50),
@@ -25,8 +26,8 @@ CREATE TABLE spotify(
 CREATE TABLE lastfm(
 	artist VARCHAR(50),
 	bio VARCHAR(1000),
-	listeners VARCHAR(50),
-	playcount VARCHAR(50),
+	listeners INT,
+	playcount INT,
 	similar_artists VARCHAR(50),
     CONSTRAINT fk_musicbrainz_lastfm
 	FOREIGN KEY(artist)
